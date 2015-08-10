@@ -1,11 +1,14 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #404040;
+  padding-top: 30px;
 }
+
 p {
   line-height: 1.5;
   margin: 30px 0;
+  color: black;
 }
 p a {
   text-decoration: underline;
@@ -20,16 +23,13 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #fff;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #tomato;
 }
-a img:hover,
-a img:focus {
-  cursor: zoom-in;
-}
+
 blockquote {
   color: #808080;
   font-style: italic;
@@ -40,52 +40,48 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-.navbar-custom {
-  background: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/* Nav Bar */
+.navbar {
+  padding-top: 0px;
+  background-color: white;
+  border-bottom: none;
 }
-.navbar-custom .navbar-brand {
-  font-weight: 800;
-}
-.navbar-custom .nav li a {
+
+.nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 500;
   letter-spacing: 1px;
 }
+
+.brand-img {
+  padding-top: auto;
+  margin-top: -8px;
+  margin-right: -85px;
+}
+.nav li a:hover,
+.nav li a:focus {
+  color: tomato;
+}
+/*
 @media only screen and (min-width: 768px) {
-  .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
-  }
-  .navbar-custom .navbar-brand {
+  .nav li a {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .navbar-custom .nav li a {
-    color: white;
-    padding: 20px;
-  }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
+  .nav li a:hover,
+  .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
 }
+
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
+    /* Force Hardware Acceleration in WebKit
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -95,7 +91,7 @@ hr.small {
     backface-visibility: hidden;
   }
   .navbar-custom.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
+    /* when the user scrolls down, we hide the header right above the viewport
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -119,7 +115,7 @@ hr.small {
     color: #0085a1;
   }
   .navbar-custom.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
+    /* if the user changes the scrolling direction, we show the header
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
@@ -127,3 +123,4 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+*/

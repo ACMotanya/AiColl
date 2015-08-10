@@ -4,20 +4,9 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
     $stateProvider
     .state('home', {
       url: '/home',
-      templateUrl: '/views/post.html',
-      controller: 'FirebaseController'
+      templateUrl: '/views/home.html',
+      controller: 'HomeController'
     });
-    $stateProvider
-      .state('post', {
-        url: '/post/{id}',
-        templateUrl: 'views/singlepost.html',
-        controller: 'SinglePostController'
-      });
-      $stateProvider
-        .state('page', {
-          url: '/page/{id}',
-          templateUrl: 'views/page.html',
-          controller: 'PageController'
-        });
+    
     $urlRouterProvider.otherwise('home');
   }]);
