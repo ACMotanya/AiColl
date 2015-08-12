@@ -7,6 +7,17 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
       templateUrl: '/views/home.html',
       controller: 'HomeController'
     });
-    
+
     $urlRouterProvider.otherwise('home');
-  }]);
+}]);
+
+
+app.directive('flexslider', function () {
+  return {
+    link: function (scope, element, attrs) {
+      element.flexslider({
+        animation: "slide"
+      });
+    }
+  }
+});
