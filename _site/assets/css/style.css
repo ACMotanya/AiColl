@@ -117,7 +117,7 @@ body, html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, 'Open Sans', sans-serif;
     text-shadow: none;
     background: #fff;
 }
@@ -175,11 +175,11 @@ p {
    ============================================================== */
 h1 {
     font-size: 32px;
-	letter-spacing:1.5px; /* New */
+	  letter-spacing:1.5px; /* New */
 }
 h2 {
     font-size: 30px;
-	letter-spacing:1.5px; /* New */
+	  letter-spacing:1.5px; /* New */
 }
 h3 {
     font-size: 24px;
@@ -196,11 +196,11 @@ h6 {
     font-size: 12px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+    font-weight: 300;
     color: #666;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-weight: 600;
+    font-weight: 300;
 }
 .uppercase {
     text-transform: uppercase;
@@ -414,7 +414,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 @media screen and (min-width:992px) {
     #box-shadow-bottom {
     background: url(../img/site/box-shadow-bottom.png) center top no-repeat;
-    height: 130px;
+    height: 90px;
     position: relative;
     width: 100%;
     z-index: 1;}
@@ -446,7 +446,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     background: #fff;
 }
 .page-section-top-alt-np {
-    padding: 0;
+    padding: 10px 0 0;
     background: #fff;
 }
 .page-section {
@@ -1764,7 +1764,7 @@ form label.error {
    32. App landing
    ============================================================== */
 #section-app-landing {
-    padding: 170px 0 50px;
+    padding: 30px 0 50px;
     color: #666;
 }
 #section-app-landing h1 {
@@ -2646,7 +2646,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Montserrat, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2659,7 +2659,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 48px;
     line-height: 52px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Montserrat, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2672,7 +2672,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 22px;
     line-height: 24px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Montserrat, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2685,7 +2685,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Montserrat, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 0;
@@ -2694,10 +2694,10 @@ a.gmap-btn .fa-angle-down {
     position: absolute;
     color: #666;
     text-shadow: none;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Montserrat, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2933,7 +2933,7 @@ a.gmap-btn .fa-angle-down {
     padding-top: 0;
     padding-bottom: 0;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
 	letter-spacing:.6px;
 }
 .list-unstyled li {
@@ -2992,7 +2992,7 @@ a.gmap-btn .fa-angle-down {
     padding-left: 13px;
     padding-right: 13px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
 	letter-spacing:.6px;
     font-size: 13px;
     margin-top: 2px;}

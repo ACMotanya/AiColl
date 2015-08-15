@@ -8,7 +8,7 @@
     <meta name="description" content="Architecture & Interior Design Collaborative">
     <meta name="author" content="Ai Collaborative">
     <title>Ai Collaborative</title>
-    <link rel="canonical" href="https://example.github.io/contact/">
+    <link rel="canonical" href="https://example.github.io/test/">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/assets/css/jquery.fancybox.css?v=2.1.5">
@@ -81,86 +81,137 @@
   <!-- navbar-end -->
 
 
-      <section id="box-shadow-bottom"> </section>
+      <!-- Shadow Element -->
+<section id="box-shadow-bottom"> </section>
 
-<!-- Contact Section -->
-<section class="page-section-top-alt-np mt-5 pb-145 pb-md-95 pb-sm-75" id="contact-mp">
- <div class="container">
-   <div class="row pt-20 pb-10">
-    <div class="col-sm-6 col-lg-6 contact-details text-left">
-        <h3 class="dark-grey">Do you need to contact us, <br> or maybe you want to leave feedback?</h3>
-         <ul class="pt-20">
-           <li><strong>Infinite Loop</strong></li>
-           <li>1 Infinite Loop,</li>
-           <li>Cupertino, CA 95014,</li>
-           <li>USA</li>
-         </ul>
-         <ul class="pt-10">
-           <li><i class="fa fa-phone"></i> +01 23 456 7890</li>
-           <li><i class="fa fa-envelope-o"></i>info@example.com</li>
-           <li><i class="fa fa-clock-o"></i>9:00 AM to 5:00 PM and until 10 PM on Fridays.</li>
-         </ul>
+
+<!-- Portfolio Starts -->
+<section class="page-section-top-alt-np mt-20 pb-155 pb-md-110 pb-sm-85" id="portfolio-mp">
+ <!-- Begin Portfolio Filter -->
+  <div class="row">
+   <div class="col-lg-12">
+     <ul class="creations-filter">
+       <li><a href="#all" data-filter="*" class="filter-button current">All</a></li>
+       <li><a class="filter-button" href="#design" data-filter=".design">Design</a></li>
+       <li><a class="filter-button" href="#street" data-filter=".street">Street</a></li>
+       <li><a class="filter-button" href="#photograph" data-filter=".photograph">Photograph</a></li>
+       <li><a class="filter-button" href="#other" data-filter=".other">Other</a></li>
+      </ul>
     </div>
-    <!--Contact Form Start-->
-    <div class="col-sm-6 col-lg-6">
-     <form id="contact-form" role="form" action="send.php" method="post">
-			<!--Name-->
-            <div class="row">
-				<div class="col-lg-6">
-					<div class="form-group">
-                     <input type="text" name="name" id="name" class="form-control input-lg" placeholder="Name" tabindex="1">
-					</div>
-				</div>
-			<!--Email-->
-             <div class="col-lg-6">
-                    <div class="form-group">
-				     <input type="email" name="email" class="form-control input-lg" placeholder="Email Address" tabindex="2">
-			        </div>
-                 </div>
-            </div><!--/.row -->
-            <!-- Phone -  NOT REQUIRED -->
-                   <div class="form-group">
-				     <input type="tel" name="phone" id="phone" class="form-control input-lg" placeholder="Phone" tabindex="3">
-			       </div>
-            <!-- Message -->
-                   <div class="form-group">
-		<textarea class="form-control input-lg" name="message" id="message" rows="3" placeholder="Message" tabindex="4"></textarea>
-			       </div>
-			<!-- Button Submit -->
-            <div class="row">
-			       <div class="col-lg-12">
-                     <input type="submit" value="Send" class="btn btn-default btn-block btn-lg" tabindex="5">
-                   </div>
-			</div>
+  </div> <!--/.row-->
 
-    </form>
 
-     <div class="success-msg">
-       <p><i class="fa fa-envelope"></i> Your message was sent successfully!</p>
+<div class="row portfolio-container">
+  <div class="masonry-item col-md-3 col-sm-3 street">
+   <div class="xc-item square effect from_top_and_bottom">
+    <div class="img"><img src="http://placehold.it/1000x1500.jpg" alt="img"></div>
+     <div class="mask">
+      <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x1500.jpg" title="Large Image"><i class="fa fa-plus"></i></a>
+       <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+      </div>
      </div>
-     <div class="error-msg">
-      <p><i class="fa fa-exclamation-triangle"></i> Something went wrong, try refreshing and submitting the form again.</p>
-     </div>
+    </div>
    </div>
-  </div><!--/.row End-->
+
+ <div class="masonry-item col-md-3 col-sm-3 design street photograph">
+   <div class="xc-item square effect from_top_and_bottom">
+    <div class="img"><img src="http://placehold.it/1000x1500/000/fff.jpg" alt="img"></div>
+     <div class="mask">
+      <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x1500/000/fff.jpg" title="Large Image"><i class="fa fa-plus"></i></a>
+       <a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo"><i class="fa fa-film"></i></a>
+       <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+      </div>
+    </div>
+   </div>
+  </div>
+
+ <div class="masonry-item col-md-3 col-sm-3 design street other">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="http://placehold.it/1000x375/f6f6f6/000.jpg" alt="img"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+      <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x375/f6f6f6/000.jpg" title="Smaller Image"><i class="fa fa-plus"></i></a>
+      <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+ <div class="masonry-item col-md-3 col-sm-3 other design street">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="http://placehold.it/1000x375/000/fff.jpg" alt="img"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+      <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x375/000/fff.jpg" title="Smaller Image"><i class="fa fa-plus"></i></a>
+      <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+ <div class="masonry-item col-md-3 col-sm-3 other design photograph">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="http://placehold.it/1000x750.jpg" alt="img"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+      <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x750.jpg" title="Title Here"><i class="fa fa-plus"></i></a>
+      <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+ <div class="masonry-item col-md-3 col-sm-3 design photograph street other">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="http://placehold.it/1000x375/000/fff.jpg" alt="img"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x375/000/fff.jpg" title="Work"><i class="fa fa-plus"></i></a>
+       <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+ <div class="masonry-item col-md-3 col-sm-3 other street photograph">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="http://placehold.it/1000x750/000/fff.jpg" alt="img"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+      <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x750/000/fff.jpg" title="Hello!"><i class="fa fa-plus"></i></a>
+      <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+  <div class="masonry-item col-md-3 col-sm-3 design street other">
+   <div class="xc-item square effect from_top_and_bottom">
+    <div class="img"><img src="http://placehold.it/1000x375/f6f6f6/000.jpg" alt="img"></div>
+     <div class="mask">
+      <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="gallery1" href="http://placehold.it/1000x375/f6f6f6/000.jpg" title="Smaller Image"><i class="fa fa-plus"></i></a>
+       <a href="project-page.html" title="Read More"><i class="fa fa-link"></i></a>
+      </div>
+     </div>
+    </div>
+   </div>
+
+
+
+
+
  </div>
 </section>
-
-
-<footer style="background-color:#2d2d2d">
-<!-- Map Buttons -->
-<div class="container">
-  <div id="map-btn1-contain" style="background:#2d2d2d">
-     <a id="map-btn1" class="gmap-btn close-map-button btn-show" href="#map">OPEN MAP <i class="fa fa-angle-down"></i></a>
-  </div>
-     <a id="map-btn2" class="gmap-btn active close-map-button btn-hide" href="#map">CLOSE MAP <i class="fa fa-angle-up"></i></a>
-</div>
-
-<!-- Google Maps -->
-<section id="map" class="close-map">
- <div id="google-map"></div>
-</section>
-<!-- /.Google Maps End -->
+<!--Portfolio Ends -->
 
 
         <!-- Footer -->
