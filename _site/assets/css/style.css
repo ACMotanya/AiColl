@@ -4077,3 +4077,14 @@ select.sel-list-tpl {
 	-webkit-align-items: center;
 	align-items: center;
 }
+/* ==============================================================
+   61. AiC Specfic styling
+   ============================================================== */
+
+#logo-words{
+  padding-top: 9px;
+  margin-left: -10px;
+}
+#logo-words a:hover {
+  color: #F00;
+}
