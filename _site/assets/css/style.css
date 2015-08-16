@@ -4084,7 +4084,11 @@ select.sel-list-tpl {
 #logo-words{
   padding-top: 9px;
   margin-left: -10px;
+  line-height: 99%;
 }
 #logo-words a:hover {
   color: #F00;
+}
+.nav-img {
+  border-radius: 30px 5px 10px 5px;
 }
