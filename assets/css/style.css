@@ -162,7 +162,7 @@ p {
     height: auto;
 }
 .intro-text {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -419,6 +419,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     width: 100%;
     z-index: 1;}
 }
+
 /* ==============================================================
    5. Sections Common
    ============================================================== */
@@ -1764,14 +1765,14 @@ form label.error {
    32. App landing
    ============================================================== */
 #section-app-landing {
-    padding: 30px 0 50px;
+    padding: 100px 0 50px;
     color: #666;
 }
 #section-app-landing h1 {
     margin-top: 0;
 }
 #section-app-landing li {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 2;
 }
@@ -2358,6 +2359,7 @@ form label.error {
 footer {
     background: #313131;
     font-size: 14px;
+    margin-top: -120px;
 }
 #map {
     position: relative;
@@ -2373,7 +2375,7 @@ footer {
     height: 0;
 }
 .open-map {
-    height: 460px;
+    height: 375px;
 }
 #map-btn1-contain {
     width: 100%;
@@ -2474,7 +2476,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     color: #adadad;
     text-transform: uppercase;
-	margin-bottom:20px;
+	  margin-bottom:20px;
 }
 .f-widget li {}
 
@@ -2489,8 +2491,8 @@ a.gmap-btn .fa-angle-down {
     display: inline-block;
     width: 100%;
     padding: 20px 0px;
-	border-bottom: 1px dashed #666;
-	line-height:1.6;
+	  border-bottom: 1px dashed #666;
+	  line-height:1.6;
 }
 .f-widget-posts li:last-child {
     border-bottom: 0;
@@ -4141,4 +4143,9 @@ select.sel-list-tpl {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
+}
+
+.index-bg{
+  background-color: #fff;
+  opacity: 0.6;
 }
