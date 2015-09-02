@@ -13,7 +13,7 @@
 # Dark BG #282828
 # Dark BG (footer) #282828
 # Dark BG (footer) #313131
-# Gray (hover) #cf1f25
+# Gray (hover) #D2312B
 # Blue (hover) #00b9ee
 # Borders #ededed
 
@@ -216,7 +216,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #666!important;
 }
 .medium-grey {
-    color: #cf1f25!important;
+    color: #D2312B!important;
 }
 .blue {
     color: #00b9ee!important;
@@ -229,7 +229,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     background: #ccc;
 }
 .bg-medium-grey {
-    background: #cf1f25;
+    background: #D2312B;
 }
 .bg-dark-grey {
     background: #666;
@@ -711,7 +711,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 #services .nav-tabs>li>a {
     line-height: 1.42857143;
     border: none;
-    color: #cf1f25;
+    color: #D2312B;
     padding: 0;
 }
 #services .nav-tabs>li>a:hover {
@@ -747,7 +747,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     transition: all .3s ease;
 }
 #services li a:hover h3 {
-    color: #cf1f25;
+    color: #D2312B;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -924,7 +924,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-top-color: transparent;
     background: #fff;
    /*border-bottom: none!important;*/
-    color: #cf1f25;
+    color: #D2312B;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #666;
@@ -1147,7 +1147,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight:300;
 }
 #section-team .phone-n-mail a:hover, #section-team .team-social-icons a:hover {
-    color: #cf1f25;
+    color: #D2312B;
 }
 #section-team .team-social-icons .fa {
     margin-right: 10px;
@@ -1185,7 +1185,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight:300;
 }
 #section-team-mp .phone-n-mail a:hover, #section-team-mp .team-social-icons a:hover {
-    color: #cf1f25;
+    color: #D2312B;
 }
 #section-team-mp .team-social-icons .fa {
     margin-right: 10px;
@@ -2009,7 +2009,7 @@ form label.error {
     transition: all .3s ease;
 }
 .app-copy-footer a:hover {
-    color: #cf1f25;
+    color: #D2312B;
 }
 /* ==============================================================
    34. App Showcase OP
@@ -2515,7 +2515,7 @@ a.gmap-btn .fa-angle-down {
 }
 .f-widget-post-text span {
     display: block;
-    color: #cf1f25;
+    color: #D2312B;
 }
 .f-widget-post-text small {
     font-size:80%;
@@ -2587,7 +2587,7 @@ a.gmap-btn .fa-angle-down {
 }
 .f-widget-tweets-text span {
     display: block;
-    color: #cf1f25;
+    color: #D2312B;
 }
 .f-widget-tweets-text small {
     font-size:80%;
@@ -2613,7 +2613,7 @@ a.gmap-btn .fa-angle-down {
     margin-bottom: 10px;
 }
 .copy-footer a, .copy-footer p {
-    color: #cf1f25;
+    color: #D2312B;
     margin-top: 9px;
     font-size: 14px;
     -webkit-transition: all .3s ease;
@@ -2713,7 +2713,7 @@ a.gmap-btn .fa-angle-down {
     font-size: 24px;
 }
 .tp-social-icon a:hover {
-    color: #cf1f25;
+    color: #D2312B;
 }
 .tp-btn {
     padding: 12px 16px;
@@ -2964,7 +2964,7 @@ a.gmap-btn .fa-angle-down {
 .list-unstyled li:not(.mega-menu-title):before {
     content: "\f105";
 	font-family: 'FontAwesome';
-	color:#cf1f25;
+	color:#D2312B;
 	margin-right:8px
 }
 .mega-menu .mega-menu-content {
@@ -3443,7 +3443,7 @@ select.sel-list-tpl {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #cf1f25;
+    color: #D2312B;
     background: url(../img/ico/icon-large.png);
     margin: 0 auto 10px;
     webkit-transition: all .3s ease;
@@ -3456,7 +3456,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #cf1f25;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 90px;
@@ -3476,7 +3476,7 @@ select.sel-list-tpl {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #cf1f25;
+    color: #D2312B;
     background: url(../img/ico/icon-medium.png);
     webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -3488,7 +3488,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #cf1f25;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 70px;
@@ -3507,7 +3507,7 @@ select.sel-list-tpl {
     webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #cf1f25;
+    color: #D2312B;
     background: url(../img/ico/icon-small.png);
     webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -3519,7 +3519,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #cf1f25;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 40px;
@@ -3537,7 +3537,7 @@ select.sel-list-tpl {
     height: 70px;
     text-align: center;
 	position:relative;
-    color: #cf1f25;
+    color: #D2312B;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -3552,7 +3552,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #cf1f25;
+    color: #D2312B;
 }
 .main-icon-medium .fa, ..main-icon-medium .xc {
     line-height: 70px;
@@ -3582,7 +3582,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #cf1f25;
+    color: #D2312B;
 }
 .main-icon-medium-alt .fa, .main-icon-medium .xc {
     line-height: 70px;
@@ -3850,7 +3850,7 @@ select.sel-list-tpl {
     color: #ddd;}
 }
 .filter-button:hover {
-    color: #cf1f25;
+    color: #D2312B;
 }
 .creations-container {
     position: relative;
@@ -4089,7 +4089,7 @@ select.sel-list-tpl {
   line-height: 110%;
 }
 #logo-words a:hover {
-  color: #cf1f25;
+  color: #D2312B;
 }
 .aic-box {
     float: left;
@@ -4118,7 +4118,7 @@ select.sel-list-tpl {
     display: inline-block;
 }
 .red{
-    color: #cf1f25;
+    color: #D2312B;
 }
 .black{
   color: #000;
