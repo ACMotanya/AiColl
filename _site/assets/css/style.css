@@ -117,7 +117,7 @@ body, html {
 }
 
 body {
-    font-family: Montserrat, 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
     text-shadow: none;
     background: #fff;
 }
@@ -976,7 +976,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-top: none;
     padding-left: 0;
     padding-right: 0;
-	font-weight:300;
+	font-weight: 300;
 	color:#666;
 	line-height:1.6;
 }
@@ -1147,7 +1147,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-	font-weight:300;
+	font-weight: 300;
 }
 #section-team .phone-n-mail a:hover, #section-team .team-social-icons a:hover {
     color: #D2312B;
@@ -2651,7 +2651,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
-    font-family: Montserrat, "Open Sans", sans-serif;
+    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2664,7 +2664,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 48px;
     line-height: 52px;
-    font-family: Montserrat, "Open Sans", sans-serif;
+    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2677,7 +2677,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 22px;
     line-height: 24px;
-    font-family: Montserrat, "Open Sans", sans-serif;
+    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2690,7 +2690,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: Montserrat, "Open Sans", sans-serif;
+    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 0;
@@ -2702,7 +2702,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: Montserrat, "Open Sans", sans-serif;
+    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -4090,6 +4090,7 @@ select.sel-list-tpl {
   margin-left: -16px;
   margin-top: 8px;
   line-height: 110%;
+  font-weight: 600;
 }
 #logo-words a:hover {
   color: #D2312B;
@@ -4155,4 +4156,25 @@ select.sel-list-tpl {
 
 .project-caption {
   margin: -50px 0 0 40px;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0255,255, 0.5);
+  transition: all .3s linear;
 }
