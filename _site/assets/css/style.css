@@ -3026,7 +3026,7 @@ a.gmap-btn .fa-angle-down {
 .navbar .navbar-nav li a {
     font-size: 16px;
     color: #666;
-    font-weight: 600;
+    font-weight: 500;
     background: 0 0;
 	  letter-spacing:1px;
     text-transform: uppercase;
@@ -4090,7 +4090,7 @@ select.sel-list-tpl {
   margin-left: -16px;
   margin-top: 8px;
   line-height: 90%;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
 }
 #logo-words a:hover {
@@ -4178,4 +4178,8 @@ select.sel-list-tpl {
   right: 0;
   background: rgba(0255,255, 0.5);
   transition: all .3s linear;
+}
+
+p.justify{
+    text-align: justify;
 }
