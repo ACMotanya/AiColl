@@ -2297,7 +2297,7 @@ form label.error {
    36 Contact MP
    ============================================================== */
 #contact-mp {
-    background: #fff;
+    background:rgba(255, 255, 255, 0);
     color: #666;
     text-align: center;
     position: relative;
@@ -4183,4 +4183,7 @@ select.sel-list-tpl {
 
 p.justify{
     text-align: justify;
+}
+.transparent {
+  opacity: 50%;
 }
