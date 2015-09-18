@@ -4088,15 +4088,22 @@ select.sel-list-tpl {
    ============================================================== */
 
 #logo-words{
-  margin-left: -16px;
-  margin-top: 8px;
-  line-height: 90%;
+  margin-left: -13px;
+  margin-top: 12px;
+  line-height: 100%;
   font-weight: 500;
   font-size: 16px;
 }
+
 #logo-words a:hover {
   color: #D2312B;
 }
+
+.nav-img {
+  margin-top: 3px;
+  border-radius: 10% 0 10% 0;
+}
+
 .aic-box {
     float: left;
     width: 42px;
@@ -4181,7 +4188,7 @@ select.sel-list-tpl {
   transition: all .3s linear;
 }
 
-p.justify{
+.justify{
     text-align: justify;
 }
 .transparent {
