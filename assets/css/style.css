@@ -417,7 +417,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 @media screen and (min-width:992px) {
     #box-shadow-bottom {
 /*    background: url(../img/site/box-shadow-bottom.png) center top no-repeat; */
-    background: linear-gradient(180deg, #666, #fff 90%);
+    background: linear-gradient(180deg, #d3d3d3, #fff 20%);
     height: 90px;
     position: relative;
     width: 100%;
