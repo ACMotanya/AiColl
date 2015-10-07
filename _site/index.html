@@ -63,10 +63,12 @@
               </a>
 
               <a class="navbar-brand page-scroll" href="/AiColl/">
-                <div id="logo-words" class="left uppercase justify">
-                    Architecture + <br />
-                    Interior Design <br />
+                <div id="logo-words" class="left uppercase">
+                  <p class="justify">
+                    Architecture + <br/>
+                    Interior Design <br/>
                     Collaborative
+                  </p>
                 </div>
               </a>
             </div>
@@ -81,10 +83,7 @@
                      <li><a href="/AiColl/principals">Principals</a></li>
                    </ul>
                  </li> <!-- /.dropdown -->
-                 <li>
-                   <a class="page-scroll" href="/AiColl/portfolio">Portfolio</a>
-                   <ul class="dropdown-menu"></ul>
-                 </li> <!-- /.dropdown Fake-->
+                 <li><a class="page-scroll" href="/AiColl/portfolio">Portfolio</a><ul class="dropdown-menu"></ul></li> <!-- /.dropdown Fake-->
                  <li><a class="page-scroll" href="/AiColl/awards">Awards</a></li>
                  <li><a class="page-scroll" href="/AiColl/contact">Contact</a></li>
                </ul><!--/.nav navbar-nav navbar-right-->
@@ -99,8 +98,10 @@
       <style>
 section {
   color: #fff;
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
 }
-
 </style>
 
 <!-- Revolution Slider -->
@@ -110,7 +111,7 @@ section {
        <ul>
 
           <!--Slide 1 -->
-          <li data-transition="fade" data-slotamount="7" data-masterspeed="600" class="tint" >
+          <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
             <img src="/AiColl/assets/img/slide-img/6-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
             <div class="caption skewfromleft xc_title_font_02"

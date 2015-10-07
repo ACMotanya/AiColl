@@ -1,110 +1,110 @@
 /* XlntCode 2015-06-06  */
-	
+
 $(window).load(function(){
         'use strict';
 
 /* ==========================================================================
    Page Loader
-   ========================================================================== */  
-      
+   ========================================================================== */
+
 	  $("#loader-wrapper").delay(0).fadeOut();
       $("#loader").delay(200).fadeOut("slow");
-	
+
 /* ==========================================================================
 	   Flexslider - Section Slider
    ========================================================================== */
-	   
+
 		 $('.flexslider').flexslider({
-	     animation: "slide",      // Fade or Slide              
+	     animation: "slide",      // Fade or Slide
 	     selector: ".section-slides > li",
-		 animationLoop: true,     // Autorun the slider 
+		 animationLoop: true,     // Autorun the slider
 		 slideshow: true,
 		 pauseOnAction: true,
 		 pauseOnHover: true,
-		 slideshowSpeed: 7000,    // Speed in milliseconds 1000 = 1sec  
+		 slideshowSpeed: 7000,    // Speed in milliseconds 1000 = 1sec
 		 directionNav: true,      // Show navigation Arrows or not
 		 controlNav: false,       // Show pagination in bottom
 		 prevText:"",
 		 nextText:""
         });
-		
+
 /* ==========================================================================
 	   Flexslider - App Slider
    ========================================================================== */
-	   
+
 	   $('.flexslider').flexslider({
-	     animation: "fade",       // Fade or Slide              
+	     animation: "fade",       // Fade or Slide
 	     selector: ".app-slides > li",
-		 animationLoop: true,      // Autorun the slider 
+		 animationLoop: true,      // Autorun the slider
 		 slideshow: true,
 		 pauseOnAction: true,
 		 pauseOnHover: true,
-		 slideshowSpeed: 7000,    // Speed in milliseconds 1000 = 1sec  
+		 slideshowSpeed: 7000,    // Speed in milliseconds 1000 = 1sec
 		 directionNav: true,       // Show navigation Arrows or not
 		 controlNav: false,        // Show pagination in bottom
 		 prevText:"",
 		 nextText:""
         });
-    
+
 /* ==========================================================================
 	   Flexslider - Column Slider
    ========================================================================== */
-	
+
 	   $('.flexslider').flexslider({
-	     animation: "slide",       // Fade or Slide              
+	     animation: "slide",       // Fade or Slide
 	     selector: ".column-slides > li",
-		 animationLoop: true,      // Autorun the slider 
+		 animationLoop: true,      // Autorun the slider
 		 slideshow: true,
 		 pauseOnAction: true,
 		 pauseOnHover: true,
-		 slideshowSpeed: 10000,    // Speed in milliseconds 1000 = 1sec  
+		 slideshowSpeed: 10000,    // Speed in milliseconds 1000 = 1sec
 		 directionNav: true,       // Show navigation Arrows or not
 		 controlNav: true,         // Show pagination in bottom
 		 prevText:"",
 		 nextText:""
         });
-   
+
 /* ==========================================================================
 	   Flexslider - Team Slider
    ========================================================================== */
-	  
+
 	   $('.flexslider').flexslider({
-	     animation: "fade",       // Fade only!              
+	     animation: "fade",       // Fade only!
 	     selector: ".team-slides > li",
-		 animationLoop: true,      // Autorun the slider 
+		 animationLoop: true,      // Autorun the slider
 		 slideshow: true,
 		 pauseOnAction: true,
 		 pauseOnHover: true,
 		 pauseInvisible: true,
 		 slideshowSpeed: 5000,     // Speed in milliseconds 1000 = 1sec
-		 animationSpeed: 0,  
+		 animationSpeed: 0,
 		 directionNav: true,       // Show navigation Arrows or not
 		 controlNav: false,         // Show pagination in bottom
 		 prevText:"",
 		 nextText:""
         });
-   
+
 
 /* ==========================================================================
 	   Flexslider - Text Rotator
    ========================================================================== */
-	   
+
 	   $('.flexslider').flexslider({
-	     animation: "fade",       // Fade or Slide              
+	     animation: "fade",       // Fade or Slide
 	     selector: ".text-slides > li",
-		 animationLoop: true,     // Autorun the slider 
+		 animationLoop: true,     // Autorun the slider
 		 slideshow: true,
 		 pauseOnAction: false,
 		 pauseOnHover: false,
 		 pauseInvisible: true,
 		 slideshowSpeed: 5000,    // Speed in milliseconds 1000 = 1sec
-		 animationSpeed: 0,  
+		 animationSpeed: 0,
 		 directionNav: false,     // Do not use!!
 		 controlNav: false,       // Do not use!!
 		 prevText:"",
 		 nextText:""
         });
-     
+
 /* ==========================================================================
    Isotope.
    ========================================================================== */
@@ -132,42 +132,50 @@ $(window).load(function(){
          });
          return false;
         });
-		}); 
-	    
+		});
+
 /* ==========================================================================
    Navbar
    ========================================================================== */
-   
+
 	$(document).ready(function(){
-		
+
 		"use strict";
-		
+
 		// Dropdown
 		$('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
-			event.preventDefault(); 
-			event.stopPropagation(); 
+			event.preventDefault();
+			event.stopPropagation();
 			$(this).parent().siblings().removeClass('open');
 			$(this).parent().toggleClass('open');
 		});
-		
+
 	// Prevent search-form to close on click (991px & smaller)
 	   $('input.form-control').on('click', function(e) {
 	        e.stopPropagation();
-	        }); 
+	        });
 
 	   // Mobile dropdown menu scrollable all the way (for mobile/smaller devices)
 	   $(".navbar-collapse").css({ maxHeight: $(window).height() - $(".navbar-header").height() + "px" });
 	   // Add class to last ul in navbar
 	   $( ".navbar-right ul" ).last().addClass( "last-nav-left" );
-	  
-  
+
+		 var loc = window.location.pathname;
+
+			$('.container').find('a').each(function() {
+				if (loc === "/AiColl/" || loc === "/AiColl/contact/") {
+			  	$(this).toggleClass('white');
+				}
+			});
+
+
 /* ==========================================================================
 	   Testimonial Slider (jcarousel)
    ========================================================================== */
 	    $('.carousel').carousel({
 	        interval: 5000
 	    });
-	    
+
 /* ==========================================================================
          OWL - Slider "Brand Slider/Recent Work"
    ========================================================================== */
@@ -197,7 +205,7 @@ $(window).load(function(){
 		var	elem = $('#sandbox'),
 			effect = $(this).val(),
 			exit = $(this).attr('data-exit');
-            
+
 			if (exit) animateEnd('#sandbox', true, true, effect);
 					else animate('#sandbox', effect);
 		 });
@@ -211,8 +219,8 @@ $(window).load(function(){
 				to: 1780,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
@@ -222,8 +230,8 @@ $(window).load(function(){
 				to: 456,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
@@ -233,8 +241,8 @@ $(window).load(function(){
 				to: 1254,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
@@ -244,8 +252,8 @@ $(window).load(function(){
 				to: 372,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
@@ -255,8 +263,8 @@ $(window).load(function(){
 				to: 19279,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
@@ -266,13 +274,13 @@ $(window).load(function(){
 				to: 199,
 				speed: 4000,
 				refreshInterval: 50,
-				onComplete: function(value) { 
-				//console.debug(this); 
+				onComplete: function(value) {
+				//console.debug(this);
 				}
 				});
 			});
-			
-			
+
+
 /* ==========================================================================
 		    Contact Form Validation
    ========================================================================== */
@@ -292,7 +300,7 @@ $(window).load(function(){
 		                required: true,
 		                email: true
 		            },
-		            
+
 		            message: {
 		                required: true
 		                }
@@ -304,7 +312,7 @@ $(window).load(function(){
 		                email: "<i class='fa fa-exclamation-triangle'></i>Please enter a valid email address."
 		            },
 		            message: "<i class='fa fa-exclamation-triangle'></i>Please enter your message."
-					 
+
 		        },
 		        submitHandler: function(form) {
 		            $(form).ajaxSubmit({
@@ -327,17 +335,17 @@ $(window).load(function(){
 		            });
 		        }
 		    });
-		    
+
 /* ==========================================================================
 		   Validation Of Subscribe Form
    ========================================================================== */
 
 		$("#email").on("input",function(e){
-				
+
 				e.preventDefault(); //prevent default action//////
-				
+
 				var email = $("#email").val();
-				
+
 				if(email.trim() == ""){
 					// let the submit button be disabled
 					$("#mc-subscribe").prop('disabled', true);
@@ -346,21 +354,21 @@ $(window).load(function(){
 					$("#mc-subscribe").prop('disabled', false);
 				}
 			});
-			
+
 			$("#mc-subscribe").on('click', function(e){
-				
+
 				e.preventDefault(); // prevent default action////
-				
+
 				var email = $("#email").val();
-				
+
 				$("#error").hide();
 				$("#success").hide();
 				$("#loadigImageDiv").show();
-				
+
 				if(!validateEmail(email)){ // validation for email addressssss////////
 					$("#loadigImageDiv").hide();
-				
-					
+
+
 				$("#error").html('<p><i class="fa fa-exclamation-triangle"></i>' + 'Please provide a valid email address!</p>');
 				$("#error").fadeIn("slow");
 				}else{ ////// if email is valid ////////
@@ -381,15 +389,15 @@ $(window).load(function(){
 						});
 				}
 			});
-			
-			function validateEmail(email) { 
+
+			function validateEmail(email) {
 				var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 				return re.test(email);
-			} 
-    		
-    		
+			}
+
+
 /* ==========================================================================
-		   FullScreen 
+		   FullScreen
    ========================================================================== */
 		   //Fullscreen Header
 		   var h = $(window).height();
@@ -414,10 +422,10 @@ $(window).load(function(){
 					$('#map').toggleClass('open-map', 'close-map', 1000);
 					return false;
 				});
-		    // Make your settings below 
+		    // Make your settings below
 			function init_map() {
-				var myLocation = new google.maps.LatLng(37.3321082,-122.0307465);
-				  
+				var myLocation = new google.maps.LatLng(27.960043, -82.437642);
+
 		        var mapOptions = {
 		          center: myLocation,
 		          zoom: 15,
@@ -426,61 +434,61 @@ $(window).load(function(){
 		          mapTypeId: google.maps.MapTypeId.ROADMAP,
 				  styles: gmapGreyscaleStyle
 		        };
-				
-				var image = 'assets/img/ico/marker.png';
+
+				var image = '{{ site.baseurl }}/assets/img/ico/marker.png';
 				var marker = new google.maps.Marker({
 					position: myLocation,
 					icon: image,
 				});
-					
+
 		        var map = new google.maps.Map(document.getElementById("google-map"),
 		            mapOptions);
-				
-				marker.setMap(map);	
+
+				marker.setMap(map);
 
 		      }
-			  
+
 		      google.maps.event.addDomListener(window, 'load', init_map);
-		 
+
 /* ===================================================================
            Accordions "Plus & Minus" Icons
-   ===================================================================*/ 
+   ===================================================================*/
 		   $('.collapse').on('shown.bs.collapse', function() {
-		   
+
 		   $(this).parent().find(".icon-plus").removeClass("icon-plus").addClass("icon-minus");
-		   
+
 		   }).on('hidden.bs.collapse', function(){
-		   
+
 		   $(this).parent().find(".icon-minus").removeClass("icon-minus").addClass("icon-plus");
 
 		   });
 /* ===================================================================
 		   CountDown
-   ===================================================================*/ 
+   ===================================================================*/
 		setInterval(function(){
 				var future = new Date("Dec 24 2015 21:15:00 GMT+0200");  // date to count down
 				var now = new Date();
 				var difference = Math.floor((future.getTime() - now.getTime()) / 1000);
-				
+
 				var seconds = fixIntegers(difference % 60);
 				difference = Math.floor(difference / 60);
-				
+
 				var minutes = fixIntegers(difference % 60);
 				difference = Math.floor(difference / 60);
-				
+
 				var hours = fixIntegers(difference % 24);
 				difference = Math.floor(difference / 24);
-				
-				
+
+
 				var days = difference;
-				
+
 				$(".seconds").text(seconds);
 				$(".minutes").text(minutes);
 				$(".hours").text(hours);
 				$(".days").text(days);
-				
+
 			}, 1000);
-			
+
 			function fixIntegers(integer)
 			{
 				if (integer < 0)
@@ -491,8 +499,8 @@ $(window).load(function(){
 			}
 /* ===================================================================
 		    Fancybox
-   ===================================================================*/ 			
-			
+   ===================================================================*/
+
 			/*
 			 *  Simple image gallery. Uses default settings
 			 */
@@ -510,12 +518,12 @@ $(window).load(function(){
 			   autoWidth  : false,
                autoResize  : true,
                fitToView   : true
-			   
+
               });
 			/*
 			 *  Different effects
 			 */
-			 
+
 			// Change title type, overlay closing speed
 			$(".fancybox-effects-a").fancybox({
 				helpers: {
@@ -676,11 +684,11 @@ $(window).load(function(){
 					}
 				});
 			});
-			
+
 /* ===================================================================
 		   Fancybox 2.1.5 - iframe popup settings
-===================================================================*/ 
-			
+===================================================================*/
+
 			$(".various").fancybox({
 				padding     : 0,
 				margin      : 40,
@@ -696,18 +704,18 @@ $(window).load(function(){
 				openEffect	: 'none',
 				closeEffect	: 'none',
 				iframe      : { scrolling : 'auto', preload  : true}
-				
+
 			});
-			
-}); 
+
+});
 /* =========================================================================
-   Parallax 
+   Parallax
    ========================================================================= */
   ( function ( $ ) {
    'use strict';
    $(document).ready(function(){
    $(window).bind('load', function () {
-		parallaxInit();						  
+		parallaxInit();
 	});
 	function parallaxInit() {
 		testMobile = isMobile.any();
@@ -717,9 +725,9 @@ $(window).load(function(){
 			$('.parallax-02').parallax("50%", 0.5);
 			$('.parallax-03').parallax("50%", 0.5);
 	    }
-	}	
-	parallaxInit();	 
-});	
+	}
+	parallaxInit();
+});
 // Mobile Detect
 var testMobile;
 var isMobile = {

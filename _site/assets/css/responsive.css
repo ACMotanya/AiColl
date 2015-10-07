@@ -276,7 +276,7 @@ a.gmap-btn {
    Navbar
    --------------------------------- */
 .navbar {
-   background:rgba(255, 255, 255, .5);
+   background:rgba(255, 255, 255, 1);
    border-bottom:1px solid #ededed;
 }
 .nav-height  {
@@ -328,7 +328,7 @@ a.gmap-btn {
    transition:0.5s;
 }
 .nav-height.navbar-shrink  {
-   background: rgba(0, 0, 0, .3);
+   background: rgba(255, 255, 255, 1);
    border-bottom:1px solid #ededed;
 }
 .navbar-shrink .navbar-brand img {
@@ -356,10 +356,10 @@ a.gmap-btn {
 }
 
 .navbar-nav .dropdown-menu li a {
-   font-weight:700;
+   font-weight:400;
    padding-top:10px;
    padding-bottom:10px;
-   font-size:16px;
+   font-size:14px;
    color: white;
 }
 .navbar-nav .dropdown-submenu .dropdown-menu li a  {

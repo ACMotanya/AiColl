@@ -416,9 +416,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 @media screen and (min-width:992px) {
     #box-shadow-bottom {
-/*    background: url(../img/site/box-shadow-bottom.png) center top no-repeat; */
-    background: linear-gradient(180deg, #666, #fff 20%); 
-    background: linear-gradient(180deg, #d3d3d3, #fff 80%);
+    background: url(../img/site/box-shadow-bottom.png) center top no-repeat;
+/*    background: linear-gradient(180deg, #666, #fff 20%);
+    background: linear-gradient(180deg, #d3d3d3, #fff 80%); */
     height: 90px;
     position: relative;
     width: 100%;
@@ -2365,7 +2365,7 @@ form label.error {
 footer {
     background: #313131;
     font-size: 14px;
-    margin-top: -120px;
+    margin-top: -120px;  /* testing */
 }
 #map {
     position: relative;
@@ -2381,7 +2381,7 @@ footer {
     height: 0;
 }
 .open-map {
-    height: 375px;
+    height: 375px; /* testing */
 }
 #map-btn1-contain {
     width: 100%;
@@ -3027,11 +3027,11 @@ a.gmap-btn .fa-angle-down {
     height: 60px;
 }
 .navbar .navbar-nav li a {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
-    font-weight: 700;
+    font-weight: 400;
     background: 0 0;
-	  letter-spacing:1px;
+	  letter-spacing:3px;
     text-transform: uppercase;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -4089,15 +4089,15 @@ select.sel-list-tpl {
    61. AiC Specfic styling
    ============================================================== */
 
-#logo-words{
+#logo-words p{
   margin-left: -13px;
   margin-top: 12px;
   line-height: 100%;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
 }
 
-#logo-words a:hover {
+a:hover #logo-words{
   color: #D2312B;
 }
 
@@ -4129,10 +4129,10 @@ select.sel-list-tpl {
     margin-left:10px;
     color: #fff
 }
-.aic-logo{
+.aic-logo {
     display: inline-block;
 }
-.red{
+.red {
     color: #D2312B;
 }
 .black{
@@ -4160,39 +4160,10 @@ select.sel-list-tpl {
     column-gap: 20px;
 }
 
-.index-bg{
-  background-color: #fff;
-  opacity: 0.6;
-}
-
 .project-caption {
   margin: -50px 0 0 40px;
 }
 
-.tint {
-  position: relative;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-}
-
-.tint:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0255,255, 0.5);
-  transition: all .3s linear;
-}
-
 .justify{
-    text-align: justify;
-}
-.transparent {
-  opacity: 50%;
+  text-align: justify;
 }
