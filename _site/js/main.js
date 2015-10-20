@@ -429,13 +429,13 @@ $(window).load(function(){
 		        var mapOptions = {
 		          center: myLocation,
 		          zoom: 15,
-				  scrollwheel:false,
+				      scrollwheel:false,
 		          draggable: false,
 		          mapTypeId: google.maps.MapTypeId.ROADMAP,
-				  styles: gmapGreyscaleStyle
+				      styles: gmapGreyscaleStyle
 		        };
 
-				var image = '{{ site.baseurl }}/assets/img/ico/marker.png';
+				var image = '/AiColl/assets/img/ico/marker.png';
 				var marker = new google.maps.Marker({
 					position: myLocation,
 					icon: image,
