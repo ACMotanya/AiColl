@@ -300,7 +300,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 #section-page-header small {
     padding: 10px 0 0;
-	letter-spacing:1px; /* New */
+	  letter-spacing:1px; /* New */
 }
 #section-page-header-large {
     padding: 0;
@@ -384,7 +384,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 12px;
     color: #fff;
     border-radius: 0;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 .breadcrumb a:hover, .breadcrumb-alt a:hover, .breadcrumb-large a:hover {
     color: #ccc;
@@ -561,7 +561,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-bottom: 0;
     text-transform: uppercase;
     color: #666;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 .section-title-line:after {
     content: "\e60e";
@@ -688,7 +688,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    ============================================================== */
 #services h3, #services-mp h3 {
     font-size: 20px;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 .services-mp {
     background: #282828;
@@ -811,7 +811,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-top: 40px;
 	margin-bottom:20px;
     color: #adadad;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 @media screen and (max-width:767px) {
     #services-bottom {
@@ -2738,7 +2738,7 @@ a.gmap-btn .fa-angle-down {
     text-transform: uppercase;
     font-weight: 300;
     margin: 0 2px;
-	letter-spacing:1.2px; /* New */
+  	letter-spacing:1.2px; /* New */
 }
 .tp-btn.active, .tp-btn:active, .tp-btn:focus, .tp-btn:hover {
     color: #fff;
@@ -2942,7 +2942,7 @@ a.gmap-btn .fa-angle-down {
     padding-bottom: 0;
     text-transform: uppercase;
     font-weight: 300;
-	letter-spacing:.6px;
+  	letter-spacing:.6px;
 }
 .list-unstyled li {
     margin-top: 0;
@@ -3001,7 +3001,7 @@ a.gmap-btn .fa-angle-down {
     padding-right: 13px;
     text-transform: uppercase;
     font-weight: 300;
-	letter-spacing:.6px;
+  	letter-spacing:.6px;
     font-size: 13px;
     margin-top: 2px;}
 }
@@ -3031,7 +3031,7 @@ a.gmap-btn .fa-angle-down {
     color: #666;
     font-weight: 400;
     background: 0 0;
-	  letter-spacing:3px;
+	  letter-spacing: 2.75px;
     text-transform: uppercase;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -4090,12 +4090,26 @@ select.sel-list-tpl {
    ============================================================== */
 
 #logo-words p{
-  margin-left: -13px;
-  margin-top: 12px;
-  line-height: 100%;
   font-weight: 500;
   font-size: 16px;
 }
+
+p.row1{
+  margin-left: -11px;
+  margin-top: 9px;
+}
+p.row2{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: -.2px;
+}
+p.row3{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: .4px;
+}
+
+
 
 a:hover #logo-words{
   color: #D2312B;
