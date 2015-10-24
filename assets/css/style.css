@@ -4192,5 +4192,6 @@ a:hover #logo-words{
   text-align: justify;
 }
 
-
-/* I thin nk im th ebest */
+.letterspace {
+  letter-spacing: 1px;
+}

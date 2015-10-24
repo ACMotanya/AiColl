@@ -4191,3 +4191,7 @@ a:hover #logo-words{
 .justify{
   text-align: justify;
 }
+
+.letterspace {
+  letter-spacing: 1px;
+}
