@@ -4173,6 +4173,9 @@ a:hover #logo-words{
   p.row3{
     margin-left: -24px;
   }
+  #map{
+    margin-top: 10px;
+  }
 }
 
 .app-landing-list {
