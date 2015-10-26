@@ -189,6 +189,7 @@ $(window).load(function(){
 	  singleItem : false,
 	  items:5
    });
+
 /* ==========================================================================
    Pages Animations
    ========================================================================== */
@@ -411,7 +412,7 @@ $(window).load(function(){
 	            Google Maps.
    ========================================================================== */
 	            // map button toggle
-				$( '.gmap-btn' ).on('click', function(){
+				  $('.gmap-btn' ).on('click', function(){
 					$('#map-btn1').toggleClass('btn-show', 'btn-hide', 1000);
 					$('#map-btn1').toggleClass('btn-hide', 'btn-show', 1000);
 					$('#map-btn2').toggleClass('btn-hide', 'btn-show', 1000);
@@ -441,7 +442,7 @@ $(window).load(function(){
 					icon: image,
 				});
 
-		        var map = new google.maps.Map(document.getElementById("google-map"),
+        var map = new google.maps.Map(document.getElementById("google-map"),
 		            mapOptions);
 
 				marker.setMap(map);
