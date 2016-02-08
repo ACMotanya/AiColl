@@ -117,7 +117,7 @@ body, html {
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-family: Raleway, 'Open Sans', sans-serif;
     text-shadow: none;
     background: #fff;
 }
@@ -2652,7 +2652,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2665,7 +2665,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 48px;
     line-height: 52px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2678,7 +2678,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 22px;
     line-height: 24px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2691,7 +2691,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 0;
@@ -2703,7 +2703,7 @@ a.gmap-btn .fa-angle-down {
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -3055,7 +3055,9 @@ a.gmap-btn .fa-angle-down {
     text-decoration: none;
 }
 .navbar .navbar-toggle {
-    border-color: #666;
+    border: 2px solid #666;
+    border-radius: 3px;
+
 }
 .navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 1);
@@ -4045,6 +4047,7 @@ select.sel-list-tpl {
 	.multi-columns-row .col-md-3:nth-child(4n + 5) { clear: left; }
 	.multi-columns-row .col-md-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-md-1:nth-child(12n + 13) { clear: left; }
+
 }
 @media (min-width: 1200px) {
 	/* reset previous grid */
@@ -4088,13 +4091,14 @@ select.sel-list-tpl {
    ============================================================== */
 
 #logo-words p{
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
 }
 
 p.row1{
   margin-left: -11px;
   margin-top: 9px;
+  letter-spacing: .2px;
 }
 p.row2{
   margin-left: -11px;
@@ -4104,45 +4108,17 @@ p.row2{
 p.row3{
   margin-left: -11px;
   margin-top: -19px;
-  letter-spacing: .4px;
+  letter-spacing: .2px;
 }
-
-
 
 a:hover #logo-words{
   color: #D2312B;
 }
 
-.nav-img {
-  margin-top: 3px;
-  border-radius: 10% 0 10% 0;
-}
-
-.aic-box {
-    float: left;
-    width: 42px;
-    height: 42px;
-    margin: -32px 5px 0px 35px;
-    border-width: 1px;
-    border-style: none;
-    border-color: rgba(0,0,0,.2);
-    background-color:#666;
-    border-radius: 0px 5px 5px 0px;
-}
-.aic-text {
-   font-size: 60px;
-   font-family: "Times New Roman", serif;
-   letter-spacing: -15px;
-   margin-top: 20px;
-}
-.little-let {
-    font-family: sans-serif;
-    font-size:45px;
-    margin-left:10px;
-    color: #fff
-}
-.aic-logo {
-    display: inline-block;
+img.nav-img {
+  margin-top: 15px;
+  border-radius: 10%;
+  padding-top: 0 !important;
 }
 .red {
     color: #D2312B;
@@ -4174,6 +4150,17 @@ a:hover #logo-words{
   #map{
     margin-top: 10px;
   }
+  ul#myDiv.nav.navbar-nav.navbar-right {
+    top: 0px;
+    left: 0px;
+  }
+  img.nav-img {
+    /*margin-top: 0px; */
+    margin: auto;
+  }
+  div#logo-words {
+    display: none;
+  }
 }
 
 .app-landing-list {
@@ -4195,4 +4182,33 @@ a:hover #logo-words{
 
 .letterspace {
   letter-spacing: 1px;
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-toggle {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+#myDiv {
+    display:none;
+}
+
+.myButton {
+  float: right;
+  border-radius: 3px;
+}
+
+div#navbar-collapse-1.navbar-collapse.collapse.in {
+  margin-bottom: 55px;
+}
+
+ul#myDiv.nav.navbar-nav.navbar-right {
+  position: relative;
+  bottom: 60px;
+  right: 70px;
 }

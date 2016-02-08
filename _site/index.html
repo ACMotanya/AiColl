@@ -27,6 +27,7 @@
 
     <!-- Custom Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,15 +48,14 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <button type="button" class="navbar-toggle myButton" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand page-scroll" href="/AiColl/">
-
-                <!-- <div class="aic-logo">
+               <a class="navbar-brand page-scroll" href="/AiColl/">
+              <!--   <div class="aic-logo">
                     <div class="aic-text"><span class="red">A</span><span class="black">i</span></div>
                     <div class="aic-box"><span class="little-let">c</span></div>
                 </div> -->
@@ -71,8 +71,9 @@
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
+            <div class="navbar-collapse collapse" id="navbar-collapse-1">
+              <div>
+               <ul id="myDiv" class="nav navbar-nav navbar-right">
                  <li class="dropdown">
                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile</a>
                    <ul class="dropdown-menu">
@@ -83,11 +84,12 @@
                  </li> <!-- /.dropdown -->
                  <li><a class="page-scroll" href="/AiColl/portfolio">Portfolio</a><ul class="dropdown-menu"></ul></li> <!-- /.dropdown Fake-->
                  <li><a class="page-scroll" href="/AiColl/awards">Awards</a></li>
-                 <li><a class="page-scroll" href="/AiColl/contact">Contact</a></li>
-               </ul><!--/.nav navbar-nav navbar-right-->
+                 <li><a class="page-scroll" href="/AiColl/contact">Contact</a>
+               </ul><!--/.nav navbar-nav navbar-right -->
+              </div>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
+          </div>
         <!-- /.container -->
     </nav>
   <!-- navbar-end -->
@@ -100,6 +102,26 @@ section {
   overflow-y: scroll;
   width: 100%;
 }
+
+.navbar .navbar-toggle {
+  border: none;
+}
+
+.navbar .navbar-toggle .icon-bar{
+  background-color: white;
+  font-size: 6px;
+}
+
+.navbar .navbar-toggle:hover {
+  background: none;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+.navbar .navbar-toggle:focus {
+  background: none;
+}
 </style>
 
 <!-- Revolution Slider -->
@@ -110,7 +132,7 @@ section {
 
           <!--Slide 1 -->
           <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-            <img src="/AiColl/assets/img/slide-img/6-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+            <img src="/AiColl/assets/img/slide-img/6-dark.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
             <div class="caption skewfromleft xc_title_font_02"
             data-x="center"
@@ -118,14 +140,14 @@ section {
             data-voffset="-60"
             data-speed="700"
             data-start="1000"
-            data-easing="Power3.easeInOut" style="color: #fff; font-size:115px;">
+            data-easing="Power3.easeInOut" style="color: #fff; font-size:100px;">
             <span style="color:#F00;">A</span><span class="lowercase">i</span> Collaborative
             </div>
          </li>
 
          <!--Slide 2 -->
          <li data-transition="fade" data-slotamount="7" data-masterspeed="600" class="img-shadow">
-           <img src="/AiColl/assets/img/slide-img/11-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+           <img src="/AiColl/assets/img/slide-img/11-dark.jpg" alt=""  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
            <div class="caption sft xc_title_font"
            data-x="600"
@@ -152,7 +174,7 @@ section {
 
          <!--Slide 3 -->
          <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-             <img src="/AiColl/assets/img/slide-img/7-dark.png" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+             <img src="/AiColl/assets/img/slide-img/7-dark.png" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
              <div class="caption skewfromright xc_title_font_02 white"
              data-x="center"
@@ -160,7 +182,7 @@ section {
              data-voffset="-100"
              data-speed="700"
              data-start="1000"
-             data-easing="Power3.easeInOut" style="font-size:115px">
+             data-easing="Power3.easeInOut" style="font-size:100px">
              <span style="color:#F00">A</span>RCHITECTURAL
              </div>
 
@@ -187,7 +209,7 @@ section {
 
          <!--Slide 4 -->
          <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-             <img src="/AiColl/assets/img/slide-img/8-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+             <img src="/AiColl/assets/img/slide-img/8-dark.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
              <div class="caption sft xc_title_font"
              data-x="600"
@@ -215,7 +237,7 @@ section {
 
          <!--Slide 5 -->
          <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-             <img src="/AiColl/assets/img/slide-img/10-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+             <img src="/AiColl/assets/img/slide-img/10-dark.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
              <div class="caption skewfromright xc_title_font_02"
              data-x="center"
@@ -233,7 +255,7 @@ section {
              data-voffset="-10"
              data-speed="700"
              data-start="1000"
-             data-easing="Power3.easeInOut" style="color:#fff; font-size:115px">
+             data-easing="Power3.easeInOut" style="color:#fff; font-size:100px">
              <span style="color:#F00">A</span>DMINISTRATION
              </div>
 
@@ -250,7 +272,7 @@ section {
 
          <!--Slide 6 -->
          <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-             <img src="/AiColl/assets/img/slide-img/9-dark.jpg" alt="" style="background-color:#ededed" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+             <img src="/AiColl/assets/img/slide-img/9-dark.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
              <div class="caption sft xc_title_font"
              data-x="675"
@@ -287,7 +309,7 @@ section {
   
         <!-- jQuery Version 2.1.3 -->
     <script src="/AiColl/js/jquery-2.1.3.min.js"></script>
-
+    <script src="/AiColl/js/jquery-ui.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="/AiColl/js/bootstrap.min.js"></script>
 

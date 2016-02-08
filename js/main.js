@@ -1,5 +1,3 @@
-/* XlntCode 2015-06-06  */
-
 $(window).load(function(){
         'use strict';
 
@@ -709,6 +707,10 @@ $(window).load(function(){
 			});
 
 });
+
+$(".myButton").click(function () {
+    $('#myDiv').toggle('slide', { direction: 'right' }, 500);
+});
 /* =========================================================================
    Parallax
    ========================================================================= */
@@ -721,7 +723,7 @@ $(window).load(function(){
 	function parallaxInit() {
 		testMobile = isMobile.any();
 		if (testMobile == null)
-		{
+    {
 			$('.parallax-01').parallax("50%", 0.5);
 			$('.parallax-02').parallax("50%", 0.5);
 			$('.parallax-03').parallax("50%", 0.5);
@@ -729,6 +731,7 @@ $(window).load(function(){
 	}
 	parallaxInit();
 });
+
 // Mobile Detect
 var testMobile;
 var isMobile = {
