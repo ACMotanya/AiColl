@@ -518,16 +518,21 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .has-border-top {
     background: url(../img/site/dashed-border.png) top left repeat-x!important;
 }
+
 /* ==============================================================
    6. Section Title
    ============================================================== */
+
 .section-title {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: #666;
-    font-size: 60px;
+    font-size: 25px;
+    position: relative;
+    z-index : 1;
 }
+
 .section-title-npb {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -1774,11 +1779,15 @@ form label.error {
 }
 #section-app-landing h1 {
     margin-top: 0;
+    font-size: 22px;
+    position: relative;
+    color: red;
 }
+
 #section-app-landing li {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 2;
+    line-height: 1.75;
 }
 .app-landing-slider {
     margin: 0 auto;
@@ -3811,7 +3820,7 @@ select.sel-list-tpl {
 	  letter-spacing:1.5px; /* New */
 }
 .filter-button {
-    font-size: 30px;
+    font-size: 20px;
     color: #666;
 	  font-weight: 300;
     margin-left: 14px;
@@ -3826,7 +3835,7 @@ select.sel-list-tpl {
     content: "/\00a0";
     margin:0px;
     color: #ddd;
-	  font-size: 35px;
+	  font-size: 20px;
 }
 .creations-filter li:first-child:before {
     content: "";
@@ -4091,7 +4100,7 @@ select.sel-list-tpl {
    ============================================================== */
 
 #logo-words p{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -4184,31 +4193,13 @@ img.nav-img {
   letter-spacing: 1px;
 }
 
-.navbar-header {
-  float: none;
-}
-
-.navbar-toggle {
-  display: inline-block;
-  position: relative;
-  top: 3px;
-}
-
-#myDiv {
-    display:none;
-}
-
-.myButton {
-  float: right;
-  border-radius: 3px;
-}
-
-div#navbar-collapse-1.navbar-collapse.collapse.in {
-  margin-bottom: 55px;
-}
-
-ul#myDiv.nav.navbar-nav.navbar-right {
-  position: relative;
-  bottom: 60px;
-  right: 70px;
+.firstcharacter {
+  float: left;
+  color: #666;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia;
 }
